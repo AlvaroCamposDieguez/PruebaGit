@@ -4,12 +4,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { ZippyComponent } from './zippy/zippy.component';
 import { PruebasPipeComponent } from './pruebas-pipe/pruebas-pipe.component';
+import { ArchivonuevogitComponent } from './archivonuevogit/archivonuevogit.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ZippyComponent,
-    PruebasPipeComponent
+    PruebasPipeComponent,
+    ArchivonuevogitComponent
   ],
   imports: [
     BrowserModule
